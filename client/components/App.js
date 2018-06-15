@@ -1,7 +1,11 @@
 import React from 'react';
+import LoginPage from './login/LoginPage';
+import SignupPage from './signup/SignupPage';
+
 
 export default () => {
     return (
-        <h1>TODO1</h1>
+        <SignupPage/>
     );
 }
+
